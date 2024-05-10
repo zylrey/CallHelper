@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dash">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/logo"
+        android:background="@color/cardview_dark_background"
+        android:src="@drawable/logoooo" />
+
+    <ImageButton
+        android:id="@+id/pf2"
+        android:layout_width="171dp"
+        android:layout_height="223dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:src="@drawable/callemergency" />
+
+    <ImageButton
+        android:id="@+id/pf3"
+        android:layout_width="171dp"
+        android:layout_height="223dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/pf2"
+        android:background="@android:color/white"
+        android:src="@drawable/medemergency" />
+
+    <ImageButton
+        android:id="@+id/pf4"
+        android:layout_width="171dp"
+        android:layout_height="223dp"
+        android:layout_below="@+id/pf2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/white"
+        android:src="@drawable/policeemergency" />
+
+    <ImageButton
+        android:id="@+id/pf5"
+        android:layout_width="171dp"
+        android:layout_height="223dp"
+        android:layout_below="@+id/pf2"
+        android:layout_toRightOf="@+id/pf4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/white"
+        android:src="@drawable/fireemergency" />
+
+</RelativeLayout>
